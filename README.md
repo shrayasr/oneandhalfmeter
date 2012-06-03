@@ -12,7 +12,9 @@ Will put up screenshots as we go along.
 
 Cheers.
 
-![image](https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash2/76899_10150094741566667_669676666_7342336_2556447_n.jpg)
+###Screenshots
+
+![image](http://dl.dropbox.com/u/138190/Screenshot_2012-06-04-00-27-03.jpg)
 
 ###Acknowledgements
 [@raghothams](https://github.com/raghothams) for helping me with the devlopment
