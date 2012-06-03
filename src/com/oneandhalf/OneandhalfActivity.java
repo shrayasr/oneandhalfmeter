@@ -86,16 +86,16 @@ public class OneandhalfActivity extends Activity implements OnCheckedChangeListe
 			
 			String fare_str = fareET.getText().toString().trim();
 			
-			if (Integer.parseInt(fare_str) < 17)
-			{
-				// put another toast, just considering fare to be 17 for now.
-				fare_str = "17";
-			}
-			
 			if (fare_str.equals(""))
 			{
 				//Put toast , just returning for now
 				return;
+			}
+			
+			if (Integer.parseInt(fare_str) < 17)
+			{
+				// put another toast, just considering fare to be 17 for now.
+				fare_str = "17";
 			}
 			
 			int fare = fc.calculate(fare_str);
