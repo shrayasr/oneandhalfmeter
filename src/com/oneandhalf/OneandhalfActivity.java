@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 
@@ -79,16 +80,29 @@ public class OneandhalfActivity extends Activity implements OnCheckedChangeListe
 	public void onClick(View v)
 	{
 		if (v.getId() == calculateB.getId())
-			performCalculate();
+		{
+			EditText fareET = (EditText)findViewById(R.id.fareEditText);
+			TextView resultTV = (TextView)findViewById(R.id.resultTextView);
 			
-	}
-
-	private void performCalculate()
-	{
-		EditText fareET = (EditText)findViewById(R.id.fareEditText);
-		TextView resultTV = (TextView)findViewById(R.id.resultTextView);
-		int fare = fc.calculate(fareET.getText().toString().trim());
-		
-		resultTV.setText("Rs. " + fare);
+			String fare_str = fareET.getText().toString().trim();
+			
+			if (Integer.parseInt(fare_str) < 17)
+			{
+				// put another toast, just considering fare to be 17 for now.
+				fare_str = "17";
+			}
+			
+			if (fare_str.equals(""))
+			{
+				//Put toast , just returning for now
+				return;
+			}
+			
+			int fare = fc.calculate(fare_str);
+			
+			resultTV.setText("Rs. " + fare);
+		}
+			
+			
 	}
 }
