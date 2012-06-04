@@ -88,14 +88,15 @@ public class OneandhalfActivity extends Activity implements OnCheckedChangeListe
 			
 			if (fare_str.equals(""))
 			{
-				//Put toast , just returning for now
+				Toast.makeText(this, "Please enter a Meter Value", Toast.LENGTH_LONG).show();
 				return;
 			}
 			
-			if (Integer.parseInt(fare_str) < 17)
+			if (Integer.parseInt(fare_str) < 17 || Integer.parseInt(fare_str) > 999)
 			{
-				// put another toast, just considering fare to be 17 for now.
-				fare_str = "17";
+				Toast.makeText(this, "Meter value has to be between 17 and 999", Toast.LENGTH_LONG).show();
+				fareET.setText("");
+				return;
 			}
 			
 			int fare = fc.calculate(fare_str);
