@@ -1,12 +1,15 @@
 #OneAndHalfMeter
 
+<a href="https://play.google.com/store/apps/details?id=com.oneandhalf&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5vbmVhbmRoYWxmIl0."><img src="http://www.android.com/images/brand/android_app_on_play_large.png"></a>
+
+
 OneAndHalfMeter is a simple android application that helps out with calculating the deadly "one and a half meter" charge. 
 
 Its major use is in a city like Bangalore, India .. The place where i live , where after 10:00PM everyone who uses an autorickshaw is expected to pay the auto fare + half of the auto fare .. Sucks , i know. 
 
 In **addition** to this , the govt. also increased the minimum rate from Rs. 17 to Rs. 20 affecting the base price as well . 
 
-Anyway , its simple to use .. You can find it [here](#) on the play store (Not yet) or just grab the source and build it yourself :)
+Anyway , its simple to use .. You can find it [here](https://play.google.com/store/apps/details?id=com.oneandhalf&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5vbmVhbmRoYWxmIl0.) on the play store or just grab the source and build it yourself :)
 
 Will put up screenshots as we go along. 
 
