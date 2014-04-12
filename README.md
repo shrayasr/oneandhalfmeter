@@ -1,3 +1,7 @@
+**THIS IS DEPRECATED NOW. BANGALORE AUTOS NOW START AT Rs. 25**
+
+---
+
 #OneAndHalfMeter
 
 <a href="https://play.google.com/store/apps/details?id=com.oneandhalf&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5vbmVhbmRoYWxmIl0."><img src="http://www.android.com/images/brand/android_app_on_play_large.png"></a>
